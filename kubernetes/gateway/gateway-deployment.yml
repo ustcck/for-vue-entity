@@ -34,7 +34,7 @@ spec:
               done
       containers:
         - name: gateway-app
-          image: ustcck/gateway
+          image: ustcck/gateway:vue
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod

@@ -34,7 +34,7 @@ spec:
               done
       containers:
         - name: blog-app
-          image: ustcck/blog
+          image: ustcck/blog:vue
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod

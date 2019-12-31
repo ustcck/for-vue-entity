@@ -34,7 +34,7 @@ spec:
               done
       containers:
         - name: store-app
-          image: ustcck/store
+          image: ustcck/store:vue
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod
